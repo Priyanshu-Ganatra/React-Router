@@ -33,7 +33,7 @@ import { githubInfoLoader } from './components/Github/getGithubInfo'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
-    <Route path='/React-Router/' element={<Layout />}>
+    <Route path='/' element={<Layout />}>
       <Route path='' element={<Home />} />
       <Route path='about' element={<About />} />
       <Route path='contact' element={<Contact />} />
